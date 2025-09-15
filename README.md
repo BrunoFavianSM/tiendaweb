@@ -93,6 +93,8 @@ Puedes personalizar fácilmente este proyecto modificando:
 
 Desarrollado como proyecto de demostración para una tienda virtual con diseño elegante y responsivo.
 
+<!--    
 ## Licencia
 
 Este proyecto está disponible como código abierto bajo los términos de la licencia MIT.
+-->

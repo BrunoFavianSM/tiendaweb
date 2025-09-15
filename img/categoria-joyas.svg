@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f8f9fa" />
+  <g transform="translate(125, 50)">
+    <!-- Collar de diamantes -->
+    <circle cx="75" cy="75" r="60" fill="none" stroke="#6a5acd" stroke-width="5" />
+    <!-- Diamante central -->
+    <polygon points="75,40 90,75 75,110 60,75" fill="#ff6b6b" />
+    <!-- Diamantes pequeños alrededor -->
+    <polygon points="75,15 80,25 75,35 70,25" fill="#6a5acd" />
+    <polygon points="135,75 125,80 115,75 125,70" fill="#6a5acd" />
+    <polygon points="75,135 80,125 75,115 70,125" fill="#6a5acd" />
+    <polygon points="15,75 25,80 35,75 25,70" fill="#6a5acd" />
+    <!-- Destellos -->
+    <line x1="75" y1="5" x2="75" y2="15" stroke="#ffffff" stroke-width="2" />
+    <line x1="145" y1="75" x2="135" y2="75" stroke="#ffffff" stroke-width="2" />
+    <line x1="75" y1="145" x2="75" y2="135" stroke="#ffffff" stroke-width="2" />
+    <line x1="5" y1="75" x2="15" y2="75" stroke="#ffffff" stroke-width="2" />
+    <!-- Brillo -->
+    <circle cx="70" cy="70" r="3" fill="#ffffff" />
+  </g>
+  <text x="200" y="280" font-family="Arial" font-size="24" text-anchor="middle" fill="#333333">Joyas</text>
+</svg>

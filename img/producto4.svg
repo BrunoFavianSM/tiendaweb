@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#f8f9fa" />
+  <g transform="translate(100, 100)">
+    <!-- Collar de plata -->
+    <circle cx="100" cy="100" r="80" fill="none" stroke="#C0C0C0" stroke-width="8" />
+    <!-- Colgante -->
+    <path d="M100,180 L120,220 L100,260 L80,220 Z" fill="#C0C0C0" />
+    <!-- Detalles del colgante -->
+    <circle cx="100" cy="230" r="10" fill="#6a5acd" />
+    <!-- Detalles del collar -->
+    <circle cx="100" cy="20" r="5" fill="#C0C0C0" />
+    <circle cx="180" cy="100" r="5" fill="#C0C0C0" />
+    <circle cx="100" cy="180" r="5" fill="#C0C0C0" />
+    <circle cx="20" cy="100" r="5" fill="#C0C0C0" />
+    <!-- Destellos -->
+    <g fill="#ffffff">
+      <circle cx="60" cy="60" r="3" />
+      <circle cx="140" cy="60" r="2" />
+      <circle cx="60" cy="140" r="2" />
+      <circle cx="140" cy="140" r="3" />
+      <circle cx="100" cy="40" r="2" />
+      <circle cx="160" cy="100" r="2" />
+      <circle cx="100" cy="160" r="2" />
+      <circle cx="40" cy="100" r="2" />
+    </g>
+  </g>
+</svg>

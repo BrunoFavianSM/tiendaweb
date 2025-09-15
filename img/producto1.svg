@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#f8f9fa" />
+  <g transform="translate(100, 50)">
+    <!-- Vestido elegante -->
+    <path d="M100,0 C110,0 120,5 125,15 L200,100 L200,300 L0,300 L0,100 L75,15 C80,5 90,0 100,0 Z" fill="#ff6b6b" opacity="0.8" />
+    <!-- Detalles del vestido -->
+    <path d="M100,0 C90,0 80,5 75,15 L0,100 L0,120 L200,120 L200,100 L125,15 C120,5 110,0 100,0 Z" fill="#ffffff" opacity="0.3" />
+    <!-- Cinturón -->
+    <rect x="0" y="120" width="200" height="15" fill="#6a5acd" opacity="0.8" />
+    <!-- Detalles adicionales -->
+    <path d="M0,250 L200,250 L180,300 L20,300 Z" fill="#ffffff" opacity="0.2" />
+  </g>
+</svg>

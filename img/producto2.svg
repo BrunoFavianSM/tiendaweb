@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#f8f9fa" />
+  <g transform="translate(75, 100)">
+    <!-- Zapato de cuero -->
+    <path d="M30,100 C30,70 50,50 100,50 C150,50 200,70 230,100 C250,120 250,150 230,180 C210,210 150,200 100,200 C50,200 10,180 10,150 C10,120 30,100 30,100 Z" fill="#8B4513" />
+    <!-- Suela del zapato -->
+    <path d="M10,150 C10,180 50,200 100,200 C150,200 210,210 230,180 C240,165 240,150 230,135 L10,135 L10,150 Z" fill="#333333" />
+    <!-- Detalles del zapato -->
+    <circle cx="200" cy="90" r="15" fill="#6a5acd" />
+    <path d="M100,50 C50,50 30,70 30,100 L30,120 L220,120 C210,80 150,50 100,50 Z" fill="#A0522D" opacity="0.5" />
+    <!-- Cordones -->
+    <line x1="80" y1="70" x2="120" y2="70" stroke="#ffffff" stroke-width="3" />
+    <line x1="80" y1="85" x2="120" y2="85" stroke="#ffffff" stroke-width="3" />
+    <line x1="80" y1="100" x2="120" y2="100" stroke="#ffffff" stroke-width="3" />
+  </g>
+</svg>

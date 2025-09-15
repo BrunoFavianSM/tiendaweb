@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f8f9fa" />
+  <g transform="translate(100, 50)">
+    <!-- Bolso de mano -->
+    <path d="M30,50 L170,50 L200,150 L0,150 L30,50 Z" fill="#ff6b6b" />
+    <!-- Asa del bolso -->
+    <path d="M50,50 C50,20 70,0 100,0 C130,0 150,20 150,50" stroke="#333333" stroke-width="8" fill="none" />
+    <!-- Detalles del bolso -->
+    <rect x="80" y="80" width="40" height="20" fill="#ffffff" />
+    <circle cx="100" cy="90" r="5" fill="#6a5acd" />
+    <!-- Sombra -->
+    <ellipse cx="100" cy="170" rx="90" ry="10" fill="#000000" opacity="0.1" />
+  </g>
+  <text x="200" y="280" font-family="Arial" font-size="24" text-anchor="middle" fill="#333333">Accesorios</text>
+</svg>

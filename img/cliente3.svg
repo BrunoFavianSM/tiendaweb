@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="100" fill="#f8f9fa" />
+  <!-- Cabeza -->
+  <circle cx="100" cy="80" r="40" fill="#FFD700" />
+  <!-- Cabello -->
+  <path d="M60,60 C60,40 80,20 100,20 C120,20 140,40 140,60 C140,65 139,70 137,75 L137,85 C137,90 135,95 132,100 C129,105 125,110 120,114 C115,118 110,121 105,123 C100,125 95,126 90,126 L90,80 L60,80 L60,60 Z" fill="#8B4513" />
+  <!-- Cara -->
+  <circle cx="85" cy="75" r="5" fill="#333333" />
+  <circle cx="115" cy="75" r="5" fill="#333333" />
+  <path d="M90,95 C95,100 105,100 110,95" stroke="#333333" stroke-width="2" fill="none" />
+  <!-- Cuerpo -->
+  <path d="M60,120 L140,120 L150,200 L50,200 Z" fill="#333333" />
+  <!-- Cuello -->
+  <rect x="90" y="120" width="20" height="10" fill="#FFD700" />
+  <!-- Collar -->
+  <path d="M70,130 L130,130 L125,140 L75,140 Z" fill="#ff6b6b" />
+</svg>

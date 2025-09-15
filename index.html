@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegance Store - Tienda Virtual</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Elegance<span>Store</span></h1>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#" class="active">Inicio</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#categorias">Categorías</a></li>
+                    <li><a href="#ofertas">Ofertas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="icons">
+                <a href="#" class="search-icon"><i class="fas fa-search"></i></a>
+                <a href="#" class="cart-icon"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a>
+                <a href="#" class="user-icon"><i class="fas fa-user"></i></a>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Descubre la Elegancia</h2>
+                <p>Las mejores prendas y accesorios para destacar en cualquier ocasión</p>
+                <a href="#productos" class="btn">Ver Colección</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="categorias" class="categories">
+        <div class="container">
+            <h2 class="section-title">Nuestras Categorías</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <img src="img/categoria-ropa.svg" alt="Ropa">
+                    <h3>Ropa</h3>
+                    <a href="#" class="btn-small">Ver más</a>
+                </div>
+                <div class="category-card">
+                    <img src="img/categoria-calzado.svg" alt="Calzado">
+                    <h3>Calzado</h3>
+                    <a href="#" class="btn-small">Ver más</a>
+                </div>
+                <div class="category-card">
+                    <img src="img/categoria-accesorios.svg" alt="Accesorios">
+                    <h3>Accesorios</h3>
+                    <a href="#" class="btn-small">Ver más</a>
+                </div>
+                <div class="category-card">
+                    <img src="img/categoria-joyas.svg" alt="Joyas">
+                    <h3>Joyas</h3>
+                    <a href="#" class="btn-small">Ver más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="productos" class="featured-products">
+        <div class="container">
+            <h2 class="section-title">Productos Destacados</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-badge">Nuevo</div>
+                    <img src="img/producto1.svg" alt="Producto 1">
+                    <div class="product-info">
+                        <h3>Vestido Elegante</h3>
+                        <p class="product-category">Ropa</p>
+                        <div class="product-price">
+                            <span class="price">$89.99</span>
+                            <span class="old-price">$120.00</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(24)</span>
+                        </div>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">Añadir al carrito</button>
+                        <button class="add-to-wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge sale">-25%</div>
+                    <img src="img/producto2.svg" alt="Producto 2">
+                    <div class="product-info">
+                        <h3>Zapatos de Cuero</h3>
+                        <p class="product-category">Calzado</p>
+                        <div class="product-price">
+                            <span class="price">$75.00</span>
+                            <span class="old-price">$100.00</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(18)</span>
+                        </div>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">Añadir al carrito</button>
+                        <button class="add-to-wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="img/producto3.svg" alt="Producto 3">
+                    <div class="product-info">
+                        <h3>Bolso de Mano</h3>
+                        <p class="product-category">Accesorios</p>
+                        <div class="product-price">
+                            <span class="price">$59.99</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(32)</span>
+                        </div>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">Añadir al carrito</button>
+                        <button class="add-to-wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge out-of-stock">Agotado</div>
+                    <img src="img/producto4.svg" alt="Producto 4">
+                    <div class="product-info">
+                        <h3>Collar de Plata</h3>
+                        <p class="product-category">Joyas</p>
+                        <div class="product-price">
+                            <span class="price">$129.99</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                            <span>(7)</span>
+                        </div>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart" disabled>Agotado</button>
+                        <button class="add-to-wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="view-more">
+                <a href="#" class="btn">Ver todos los productos</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="ofertas" class="special-offer">
+        <div class="container">
+            <div class="offer-content">
+                <h2>Oferta Especial</h2>
+                <h3>Hasta 50% de descuento</h3>
+                <p>En nuestra colección de temporada</p>
+                <div class="countdown">
+                    <div class="countdown-item">
+                        <span id="days">00</span>
+                        <p>Días</p>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="hours">00</span>
+                        <p>Horas</p>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="minutes">00</span>
+                        <p>Minutos</p>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="seconds">00</span>
+                        <p>Segundos</p>
+                    </div>
+                </div>
+                <a href="#" class="btn">Comprar Ahora</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"La calidad de los productos es excepcional. Estoy muy satisfecha con mi compra y definitivamente volveré a comprar aquí."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="img/cliente1.svg" alt="Cliente 1">
+                        <div>
+                            <h4>María García</h4>
+                            <p>Cliente Frecuente</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"El servicio al cliente es impecable y la entrega fue más rápida de lo que esperaba. Totalmente recomendado."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="img/cliente2.svg" alt="Cliente 2">
+                        <div>
+                            <h4>Carlos Rodríguez</h4>
+                            <p>Cliente Nuevo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Me encanta la variedad de productos y la facilidad para navegar por la tienda. Siempre encuentro lo que busco."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="img/cliente3.svg" alt="Cliente 3">
+                        <div>
+                            <h4>Laura Martínez</h4>
+                            <p>Cliente VIP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button id="prev-testimonial"><i class="fas fa-chevron-left"></i></button>
+                <button id="next-testimonial"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Suscríbete a nuestro boletín</h2>
+                <p>Recibe las últimas novedades y ofertas exclusivas directamente en tu correo</p>
+                <form id="newsletter-form">
+                    <input type="email" placeholder="Tu correo electrónico" required>
+                    <button type="submit" class="btn">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="logo">
+                        <h2>Elegance<span>Store</span></h2>
+                    </div>
+                    <p>Tu destino para moda elegante y accesible. Encuentra las últimas tendencias en ropa, calzado, accesorios y joyas.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#categorias">Categorías</a></li>
+                        <li><a href="#ofertas">Ofertas</a></li>
+                        <li><a href="#">Mi Cuenta</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Información</h3>
+                    <ul>
+                        <li><a href="#">Sobre Nosotros</a></li>
+                        <li><a href="#">Política de Privacidad</a></li>
+                        <li><a href="#">Términos y Condiciones</a></li>
+                        <li><a href="#">Envíos y Devoluciones</a></li>
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contacto</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Calle Principal 123, Ciudad</li>
+                        <li><i class="fas fa-phone"></i> +123 456 7890</li>
+                        <li><i class="fas fa-envelope"></i> info@elegancestore.com</li>
+                        <li><i class="fas fa-clock"></i> Lun-Vie: 9am - 8pm, Sáb-Dom: 10am - 6pm</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 EleganceStore. Todos los derechos reservados.</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Tu Carrito</h3>
+            <button class="close-cart"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-items">
+            <!-- Los items del carrito se cargarán dinámicamente con JavaScript -->
+            <div class="empty-cart-message">Tu carrito está vacío</div>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span class="total-amount">$0.00</span>
+            </div>
+            <button class="btn checkout-btn">Proceder al Pago</button>
+            <button class="btn view-cart-btn">Ver Carrito</button>
+        </div>
+    </div>
+    <div class="overlay"></div>
+
+    <script src="js/funciones.js"></script>
+</body>
+</html>

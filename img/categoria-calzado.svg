@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f8f9fa" />
+  <g transform="translate(100, 70)">
+    <!-- Silueta de un zapato -->
+    <path d="M20,80 C20,50 40,30 80,30 C120,30 150,50 180,80 C200,100 200,120 180,140 C160,160 100,160 60,160 C20,160 0,140 0,120 C0,100 20,80 20,80 Z" fill="#333333" />
+    <!-- Suela del zapato -->
+    <path d="M0,120 C0,140 20,160 60,160 C100,160 160,160 180,140 C190,130 190,120 180,110 L0,110 L0,120 Z" fill="#8B4513" />
+    <!-- Detalles del zapato -->
+    <circle cx="150" cy="70" r="10" fill="#ff6b6b" />
+    <path d="M80,30 C40,30 20,50 20,80 L20,100 L170,100 C160,70 120,30 80,30 Z" fill="#6a5acd" opacity="0.2" />
+  </g>
+  <text x="200" y="280" font-family="Arial" font-size="24" text-anchor="middle" fill="#333333">Calzado</text>
+</svg>

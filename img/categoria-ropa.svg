@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f8f9fa" />
+  <g transform="translate(125, 50)">
+    <!-- Silueta de una prenda de ropa (vestido) -->
+    <path d="M75,0 C85,0 95,5 100,15 L150,80 L150,200 L0,200 L0,80 L50,15 C55,5 65,0 75,0 Z" fill="#6a5acd" opacity="0.8" />
+    <!-- Detalles del vestido -->
+    <path d="M75,0 C65,0 55,5 50,15 L0,80 L0,90 L150,90 L150,80 L100,15 C95,5 85,0 75,0 Z" fill="#ffffff" opacity="0.3" />
+    <!-- Cinturón -->
+    <rect x="0" y="90" width="150" height="10" fill="#ff6b6b" opacity="0.8" />
+  </g>
+  <text x="200" y="280" font-family="Arial" font-size="24" text-anchor="middle" fill="#333333">Ropa</text>
+</svg>
